@@ -1,0 +1,57 @@
+########################################
+# Program: needle
+# Rundate: Tue 22 Nov 2022 04:08:48
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20221122-040727-0329-68351085-p2m.aupfile
+#    -bsequence emboss_needle-I20221122-040727-0329-68351085-p2m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_002
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 171
+# Identity:      47/171 (27.5%)
+# Similarity:    72/171 (42.1%)
+# Gaps:          37/171 (21.6%)
+# Score: 144.5
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -XATKAVCVLKGDGPVQGIINFEQKESNGPVKVWGSIKGLTEGLHGFHVH     49
+                       .|..:..|:...|| |.|...|.:..  |.....:..||.|:||||:|
+EMBOSS_002         1 QDLTVKMTDLQTGKPV-GTIELSQNKYG--VVFTPELADLTPGMHGFHIH     47
+
+EMBOSS_001        50 EFGDNTAGCTS------------AGPHFNP-LSRKHGGPKDEERHVGDLG     86
+                     :.|    .|.|            ||.|::| .:.|||.|..::.|.|||.
+EMBOSS_002        48 QNG----SCASSEKDGKVVLGGAAGGHYDPEHTNKHGFPWTDDNHKGDLP     93
+
+EMBOSS_001        87 NVTADKDGVADVSIEDSVISLSGDHCIIGRTLVVHEKADDLGKGGNEES-    135
+                     .:....:|:|...:....::|..   :.|..:::|       .||:..| 
+EMBOSS_002        94 ALFVSANGLATNPVLAPRLTLKE---LKGHAIMIH-------AGGDNHSD    133
+
+EMBOSS_001       136 --TKTGNAGSRLACGVIGIAQ    154
+                       ...|..|:|:|||||.   
+EMBOSS_002       134 MPKALGGGGARVACGVIQ---    151
+
+
+#---------------------------------------
+#---------------------------------------

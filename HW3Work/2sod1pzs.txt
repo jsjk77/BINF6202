@@ -1,0 +1,61 @@
+########################################
+# Program: needle
+# Rundate: Tue 22 Nov 2022 04:06:53
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20221122-040650-0596-30797470-p1m.aupfile
+#    -bsequence emboss_needle-I20221122-040650-0596-30797470-p1m.bupfile
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_002
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 215
+# Identity:      51/215 (23.7%)
+# Similarity:    72/215 (33.5%)
+# Gaps:          70/215 (32.6%)
+# Score: 137.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 -----------------------------------XATKAVCVLKG-DGP     14
+                                                         |......|.. ||.
+EMBOSS_002         1 CSSPQHASTVPGTTPSIWTGSPAPSGLSGHDEESPGAQSLTSTLTAPDGT     50
+
+EMBOSS_001        15 VQGTIHFEAKGDTVVVTGSITG---LTEGDHGFHVHQFG---DNTQGCT-     57
+                     ...|..||.......||.:.||   ||.|.||.|:||.|   .|:...| 
+EMBOSS_002        51 KVATAKFEFANGYATVTIATTGVGKLTPGFHGLHIHQVGKCEPNSVAPTG    100
+
+EMBOSS_001        58 -------SAGPHFNPLSKKHGGPKDEERHVGDLGNVTADKNGVAIVDIVD    100
+                            |||.|:: :....|.|..     |||.::....:|.|::....
+EMBOSS_002       101 GAPGNFLSAGGHYH-VPGHTGTPAS-----GDLASLQVRGDGSAMLVTTT    144
+
+EMBOSS_001       101 PLISLSGEYSIIGRTMVVHEKPDDL------------GRGGNEEST-KTG    137
+                     ...::....|.....:::|...|:.            |..|.:|:| .||
+EMBOSS_002       145 DAFTMDDLLSGAKTAIIIHAGADNFANIPPERYVQVNGTPGPDETTLTTG    194
+
+EMBOSS_001       138 NAGSRLACGVIGIAK    152
+                     :||.|:||||||.. 
+EMBOSS_002       195 DAGKRVACGVIGSG-    208
+
+
+#---------------------------------------
+#---------------------------------------
